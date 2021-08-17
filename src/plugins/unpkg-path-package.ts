@@ -34,9 +34,9 @@ export const unpkgPathPlugin = () => {
 					return {
 						loader: 'jsx',
 						contents: `
-								import React, { useCallback } from 'react';
-								console.log(react, useCallback);
-								`,
+							import React, { useCallback } from 'react';
+							console.log(react, useCallback);
+							`,
 					};
 				}
 
